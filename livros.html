@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="livros.css">
+    <title>HOME</title>
+</head>
+<!----------------------------------------------------------------------------NAVEGADOR PADRÃO------------------------------------------------------------------------------------------------------------------------------------------------------>
+<body>
+    <section>
+        <div class="navigation">
+            <nav>
+                <img class="logo" src="logo.PNG" alt="TutiBooks png" width="221px" height="51px">
+                <div class="links">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="livros.html">Livros</a>
+                        </li>
+                        <li>
+                            <a class="buttonAdicionar" href="cadastro.html">+ Adicionar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+<!----------------------------------------------------------------------------CAMPO DE PESQUISA------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <section>
+        <div class="pesquisa">
+            <form>
+                <input class="inputBuscar" id ="pesquisa" type="text" onkeyup="pesquisar()" placeholder="O que está buscando ?">
+            </form>
+        </div>
+    </section>
+    <section>
+        <div id="dadosTela">
+        </div>
+    </section>
+</body>
+<!----------------------------------------------------------------------------JAVASCRIPT LIVROS JSON------------------------------------------------------------------------------------------------------------------------------------------------------>
+<script src="livros.js"></script>
+</html>

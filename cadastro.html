@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>HOME</title>
+</head>
+<!----------------------------------------------------------------------------NAVEGADOR PADRÃO------------------------------------------------------------------------------------------------------------------------------------------------------>
+<body>
+    <section>
+        <div class="navigation">
+            <nav>
+                <img class="logo" src="logo.PNG" alt="TutiBooks png" width="221px" height="51px">
+                <div class="links">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="livros.html">Livros</a>
+                        </li>
+                        <li>
+                            <a class="buttonAdicionar" href="cadastro.html">+ Adicionar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+<!----------------------------------------------------------------------------CADASTRO DE LIVROS------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <section>
+        <div class="cadastro">
+            <h1 class="title">Adicionar novo livro</h1>
+            <form>
+                <p>Nome:</p>
+                <input type="text" id="nome" placeholder="Ex: Desenvolvimento NodeJS">
+            </form>
+            <form>
+                <p>Descrição:</p>
+                <input type="text" id="descricao" placeholder="Ex: Este livro explica o desenvolvimento desde o...">
+            </form>
+            <form>
+                <p>Autor:</p>
+                <input type="text" id="autor" placeholder="Ex: José Monteiro Valasques">
+            </form>
+        </div>
+        <div class="button">
+            <button id="buttonCadastrar" type="button" value="Cadastrar" onclick="validarLivro('nome','descricao','autor')">Cadastrar</button>
+        </div>
+    </section>
+</body>
+<!----------------------------------------------------------------------------JAVASCRIPT LIVROS JSON------------------------------------------------------------------------------------------------------------------------------------------------------>
+<script src="cadastro.js"></script>
+</html>

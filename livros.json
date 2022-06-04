@@ -1,0 +1,22 @@
+[
+    {
+        "nome":"Arquitetura Limpa",
+        "autor":"Roberto C. Martin",
+        "descricao":"As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software..."
+    },
+    {
+        "nome":"Código Limpo",
+        "autor":"Roberto C. Martin",
+        "descricao":">Mesmo um código ruim pode funcionar. Mas se ele não for limpo, pode acabar com uma empresa de desenvolvimento. Perdem-se a cada ano horas incontáveis recursos..."
+    },
+    {
+        "nome":"Roube como um Artista",
+        "autor":"Austin Kleon",
+        "descricao":"Coleção Pitch Deck. Plataforma para jovens negócios. Verdadeiro manifesto ilustrado de como ser criativo na era digital. Roube como um artista, do designer e escritor..."
+    },
+    {
+        "nome":"Siga em Frente",
+        "autor":"Austin Kleon",
+        "descricao":"Em seus livros anteriores, os best-sellers Roube como um artista e Mostre seu trabalho!, Austin Kleon deu aos seus leitores a chave para liberar a criatividade e o que é preciso para..."
+    }
+]

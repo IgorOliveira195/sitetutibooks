@@ -1,0 +1,157 @@
+/*------------------------------------------------------------CSS PADRÃO-------------------------------------------------------------------*/
+
+:root{
+    --cor-primaria-sucess: #070736;
+    --cor-secundaria-sucess: #69e384;
+    --cor-terciaria-sucess: #040426;
+    --cor-quartenaria-sucess: #6a6af9;
+}
+
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+}
+
+@font-face {
+    font-family: 'Poppins' ;
+    src: url('Poppins-Light.ttf') format('truetype');
+    font-style: normal;
+}
+
+body{
+    width: 100%;
+    margin-top: 50px;
+    background-color: var(--cor-primaria-sucess);
+    font-family: 'Poppins';
+}
+
+/*------------------------------------------------------------CSS NAVEGADOR-------------------------------------------------------------------*/
+
+.navigation{
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    padding-left: 30px;
+    float: left;
+}
+
+.links{
+    padding-right: 30px;
+    float: right;
+}
+
+.links ul li a:hover{
+    cursor: pointer;
+    color: var(--cor-secundaria-sucess);
+    font-weight: bold;
+}
+
+.links ul li a:active{
+    cursor: pointer;
+    color: var(--cor-secundaria-sucess);
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.links ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttonAdicionar{
+    padding: 5px 20px 5px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: #fff;
+    border: #fff solid 1px;
+    background-color: var(--cor-terciaria-sucess);
+}
+
+.buttonAdicionar:hover{
+    cursor: pointer;
+}
+
+/*------------------------------------------------------------CSS CADASTRO-------------------------------------------------------------------*/
+
+.cadastro{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.title{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#nome{
+    max-lines: 5;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border: gray solid 1px;
+    margin-bottom: 15px;
+}
+
+#descricao{
+    max-lines: 5;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border: gray solid 1px;
+    margin-bottom: 15px;
+}
+
+#autor{
+    max-lines: 5;
+    width: 90%;
+    padding: 15px;
+    border-radius: 10px;
+    border: gray solid 1px;
+    margin-bottom: 15px;
+}
+
+.button{
+    margin-top: -120px;
+    text-align: center;
+    justify-content: center;
+}
+
+#buttonCadastrar{
+    padding: 15px 40px 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: var(--cor-quartenaria-sucess);
+    margin-top: 30px;
+}
+
+#buttonCadastrar:hover{
+    cursor: pointer;
+    color: var(--cor-quartenaria-sucess);
+    background-color: var(--cor-terciaria-sucess);
+}
+
+#buttonCadastrar:active{
+    background-color: gray;
+    color: #000;
+}
+
